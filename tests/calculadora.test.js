@@ -4,7 +4,7 @@ describe('Testes da Calculadora', () => {
   
   describe('Função Somar', () => {
     it('deve somar dois números positivos', () => {
-      expect(calc.somar(5, 3)).toBe(9); // QUEBRANDO TESTE PARA DEMONSTRAR PIPELINE
+      expect(calc.somar(5, 3)).toBe(8);
     });
 
     it('deve somar números negativos', () => {
