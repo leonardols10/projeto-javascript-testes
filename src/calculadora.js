@@ -1,5 +1,7 @@
 // Calculadora - Operações básicas matemáticas
 
+const unusedVariavel = 0;
+
 function somar(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
     throw new Error('Os parâmetros devem ser números');
